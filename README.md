@@ -1,6 +1,13 @@
-# 基于SSM的疫情防控管理系统2
+# 基于SSM的疫情防控管理系统
 
-#### 介绍
+## 获取方式
+
+扫描下方，回复关键词  ：**疫情2** ，获取完整版源码
+
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+## 1、项目介绍
+
 基于SSM的疫情防控管理系统拥有四种角色：
 
 - **超级管理员**：管理员信息管理
@@ -8,35 +15,86 @@
 - **工作人员**：出入登记、防疫信息管理、风险地区管理、公告管理、核酸申请管理、健康登记、健康码管理、人员流动管理、消毒申请管理、疫苗管理、疫苗预约等
 - **居民**：健康信息登记、消毒申请、核酸检测申请、其它信息的查询等
 
-#### 软件架构
-软件架构说明
+
+## 2、项目技术
+
+后端框架：SSM（Spring、SpringMVC、Mybatis）
+
+前端框架：jsp、css、JavaScript、JQuery
+
+## 3、开发环境
+
+- JAVA版本：JDK1.8
+- IDE类型：IDEA、Eclipse都可运行
+- tomcat版本：Tomcat 7-10版本均可
+- 数据库类型：MySql（5.x和8.x版本都可） 
+- maven项目：否
+- 硬件环境：Windows 或者 Mac OS
 
 
-#### 安装教程
+## 4、功能介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 4.1 登录
 
-#### 使用说明
+![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132312132.jpg)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 4.2 超级管理员模块
 
-#### 参与贡献
+![超级管理员-管理员信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313376.jpg)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+### 4.3 管理员模块
+
+![管理员-用户信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313992.jpg)
+
+![管理员-消息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313788.jpg)
+
+![管理员-人员疫苗统计](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313000.jpg)
+
+![管理员-评论信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313521.jpg)
+
+### 4.4 工作人员模块
+
+![工作人员-出入登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313730.jpg)
+
+![工作人员-防疫信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313851.jpg)
+
+![工作人员-风险地区管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313993.jpg)
+
+![工作人员-公告管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313897.jpg)
+
+![工作人员-核酸申请检测管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313101.jpg)
+
+![工作人员-健康登记](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313441.jpg)
+
+![工作人员-健康码管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313870.jpg)
+
+![工作人员-人员流动管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313017.jpg)
+
+![工作人员-帖子管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313732.jpg)
+
+![工作人员-消毒申请管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313683.jpg)
+
+![工作人员-疫苗信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313771.jpg)
+
+![工作人员-疫苗预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132314345.jpg)
+
+### 4.5 居民模块
+
+![居民-健康信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132314720.jpg)
+
+![居民-申请消毒和核酸检测](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132314320.jpg)
+
+![居民-消息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132314839.jpg)
+
+### 4.6 文档目录
+
+![文档目录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202207132313639.jpg)
+
+## 5、获取方式
+
+扫描下方，回复关键词  ：**疫情2** ，获取完整版源码
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
